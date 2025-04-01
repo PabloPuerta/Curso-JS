@@ -11,7 +11,7 @@ console.log(holaMundo)
 let holaMundo2 = "Hola de nuevo mundo"
 console.log(holaMundo2)
 
-// conost
+// const
 
 const holaMundo3 = "Hola mundo 3"
 console.log(holaMundo3)

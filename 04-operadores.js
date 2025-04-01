@@ -57,7 +57,7 @@ console.log(5 < 10 || 15 > 20) // El operador or (||) comprueba que una de las e
 
 console.log(!(5 < 10 || 15 > 20)) // Obtiene la negación o resultado contrario a lo esperado
 
-// Operadores ternarios (? :)m
+// Operadores ternarios (? :)
 
 const estaLloviendo = true
 
