@@ -18,4 +18,4 @@ let i = 0
 while (i < 5) {
     console.log("hola")
     i++
-}// 10. Crea un Array, transfórmalo a un Set y almacénalo en un Map
+}
