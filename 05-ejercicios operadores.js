@@ -88,3 +88,31 @@ console.log(!(10 == 5))
 let esAdmin = true
 
 esAdmin ? console.log("Bienvenido Administrador") : console.log("El usuario no es Administrador del sitio web")
+
+// 10. Combina operadores atirméticos, de comparación y lógicos
+
+console.log(" ")
+console.log(" ")
+console.log(" ")
+
+console.log("Obtén una suma total de 80 o 26 con dos números para acceder al sistema")
+const readline = require("readline")
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.question("Ingresa tu primer número: ", (num1) => {
+    rl.question("Ingresa el segundo número: ", (num2) => {
+    
+    let resultado = parseInt(num1) + parseInt(num2);
+
+    if(resultado == 80 || resultado == 26){
+    console.log(`El resultado de ${num1} + ${num2} es ${resultado}, bienvenido`);
+    }
+    else{
+        console.log(`El resultado de ${num1} + ${num2} no es el esperado`)
+    }
+})
+})
