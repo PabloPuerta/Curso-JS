@@ -52,6 +52,40 @@ rl.question("Introduce la primera cadena de texto: ", (cadena1) => {
     rl.question("Introduce una cadena de texto: ", (cadenaMinus) =>{
         const cadenaMayus = cadenaMinus.toUpperCase()
         console.log(`La cadena introducida en mayúsculas queda de esta manera: ${cadenaMayus}`)
+
+
+// 5. Crea una cadena de texto en varias líneas
+      console.log("\nEjercicio 5: Crea una cadena te texto en varias lineas")
+      console.log("Esto es una cadena de texto \nEn dos lineas")
+
+
+// 6. Interpola el valor de una variable en un string
+      console.log("\nEjercicio 6: Interpola el valor de una variable en un string")
+      variableNum = 9
+      console.log( `Esto es una cadena inerpolada con una variable ${variableNum}`)
+
+
+// 7. Reemplaza todos los espacios en blanco de un string por guiones
+      console.log("\nEjercicio 7: Reemplaza todos los espacios en blanco de un string por guiones")
+      cadenaString = "Esto es una cadena con espacios reemplazados por guiones"
+      console.log(`${cadenaString.replaceAll(" ","-")}`)
+       
+
+// 8. Comprueba si una cadena de texto contiene una palabra concreta
+      console.log("\nEjercicio 8: Comprueba si una cadena de texto contiene una palabra concreta")
+
+      rl.question("Introduce una cadena de texto y compruebo si la palabra CASA está en ella\n", (cadenaUsuario8) => {
+
+        if(cadenaUsuario8.toLowerCase().includes("casa")){
+          console.log("La cadena de texto introducida SI contiene la palabra casa")
+        }else{
+          console.log("La cadena de texto intoducida NO contiene la palabra casa")
+        }
+      
+      
+// 9. Comprueba si dos strings son iguales
+        console.log("\nEjercicio 9: Comprueba si dos strings son iguales")
+      })
     })
     })
     })
