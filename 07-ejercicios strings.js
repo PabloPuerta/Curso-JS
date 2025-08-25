@@ -85,6 +85,22 @@ rl.question("Introduce la primera cadena de texto: ", (cadena1) => {
       
 // 9. Comprueba si dos strings son iguales
         console.log("\nEjercicio 9: Comprueba si dos strings son iguales")
+
+        rl.question("Introduce la primera cadena de texto: ", (cadenaString1) =>{
+          rl.question("Introduce la segunndo cadena de texto: ", (cadenaString2) => {
+
+          if(cadenaString1 == cadenaString2){
+            console.log("Las cadenas introducidas son iguales")
+          }else{
+            console.log("Las cadenas introducidas NO son iguales")
+          }
+
+          })
+        })
+
+
+// 10. Comprueba si dos strings tienen la misma longitud
+        console.log("\nEjercicio 10: Comprueba si dos strings tienen la misma longitud")
       })
     })
     })
